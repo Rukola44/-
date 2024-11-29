@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Занятие__1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int money = 100;
+            int age = 20;
+            string name = "Boris";
+            string city = "Irkutsk";
+            float hels = 86.5f;
+            float damage = 54.6f;
+            char year = '2004';
+            char month = '11';
+            bool isDead;
+            isDead = hels < damage;
+            bool isLife;
+            isLife = hels < damage;  
+        }
+    }
+}
